@@ -1,0 +1,22 @@
+# Mac
+.DS_Store
+
+.env
+/.idea
+/docker/ash/.ash_history
+/docker/php/psysh
+/docker/php/logs
+/docker/nginx/logs
+/docker/mysql/logs
+!/docker/php/psysh/config.php
+/logs/*
+/src
+
+# Visual Studio Code
+.vscode
+# Rest Client
+*.http
+
+# CircleCI
+process.yml
+
